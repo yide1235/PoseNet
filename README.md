@@ -29,6 +29,7 @@ The PoseNet architecture has three loss headers. Each of these loss headers pred
 position and a wpqr orientation. The position is predicted as a 3D coordinate and the orien-
 tation as a Quaternion in wpqr ordering. We will calculate a loss for each loss header individ-
 ually and then add them together to build the final loss. The loss is given by
+
 ![](./img/4.png)
 
 #### data augmentation
@@ -48,6 +49,7 @@ The precomputed mean image I mean needs to be subtracted from each image when se
 • During testing: Crop the 224x224 center out of the image.
 4. Normalize: Use a mean of 0.5 and standard deviation of 0.5 to normalize each channel of the images.
 ![](./img/graph.png)
+
 **Left is label, right is the corresponding prediction.**
 
 #### References
