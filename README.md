@@ -1,5 +1,4 @@
-# Implementation of PoseNet
-* (emoji.md#people) - (:blush:);
+# Implementation of PoseNet(:blush:);
 
 Download the KingsCollege dataset from here and extract it in the data/datasets/ in your root directory.
 [KingsCollege](https://www.repository.cam.ac.uk/bitstream/handle/1810/251342/KingsCollege.zip)
