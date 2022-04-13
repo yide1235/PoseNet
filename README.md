@@ -48,8 +48,7 @@ The precomputed mean image I mean needs to be subtracted from each image when se
 • During testing: Crop the 224x224 center out of the image.
 4. Normalize: Use a mean of 0.5 and standard deviation of 0.5 to normalize each channel of the images.
 ![](./img/graph.png)
-
-**Left is label, right is the corresponding prediction.**
+Use checkpoint at epoch close to 400.
 
 #### References
 [1] A. Kendall, M. Grimes and R. Cipolla, "PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization," 2015 IEEE International Conference on Computer Vision (ICCV), 2015, pp. 2938-2946, doi: 10.1109/ICCV.2015.336.
