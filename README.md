@@ -8,7 +8,7 @@ Download the googlenet as pre-trained model from here and extract it in the ./pr
 
 ## PoseNet struture
 change the struture different from original[1]
-#### Implement the U-net architecture for cell image data segmentation using PyTorch.
+#### Implement the PoseNet architecture using PyTorch.
 
 1. Remove all three softmax layers with their preceding linear classifier layers. Replace
 them with 2 parallel linear layers. One with an output size of 3 to predict the xyz po-
